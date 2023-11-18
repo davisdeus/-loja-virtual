@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-seri;
+}
+
+body {
+    background-color: #E0E6F8;
+
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container,
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(74, 128, 235);
+    color: white;
+    padding: 0.5em;
+    margin-bottom: 60px;
+}
+
+header li {
+    padding-left: 1.5em;
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+
+}
+
+header h1,
+main h2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.sobreALoja {
+    display: flex;
+
+}
+
+
+.sobreALoja img {
+    width: 28em;
+    height: 28em;
+    margin-right: 2em;
+    margin-bottom: 60px
+}
+
+.container article img {
+    width: 25em;
+    height: 25em;
+    margin-right: 24px;
+}
+
+main h2 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid rgb(74, 128, 235);
+    color: rgb(74, 128, 235);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos article {
+    max-width: 24.94%;
+    background-color: #E0E6F8;
+    padding: 0.5%;
+}
+
+.produtos article img {
+    width: 100%;
+    margin: 2em 0;
+}
+
+.produtos article img:hover {
+    padding: 1em;
+
+}
+
+.produtos article h3 {
+    margin-bottom: 1em;
+}
+
+.produtos article button {
+    margin-top: 1.5em;
+    padding: 0.7em;
+    width: 100%;
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.produtos article button:hover {
+    background-color: #088A08;
+}
+
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+
+    header {
+        padding-left: 3vw;
+    }
+
+    .borderRight {
+        border-right: 5px solid white;
+        width: 45vw;
+
+    }
+
+    main {
+        display: flex;
+
+    }
+
+    aside h2 {
+        padding-bottom: 0.2em;
+    }
+
+    .sobreALoja {
+        display: block;
+        padding-right: 5%;
+        padding-left: 3vw;
+    }
+
+    .sobreALoja img {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    aside {
+        padding-left: 3%;
+        margin-top: -96px;
+        padding-right: 3%;
+
+
+    }
+
+    .produtos article {
+        max-width: 49%;
+
+    }
+
+    aside .ProdutosArticle img {
+        width: 24vw;
+        height: 24vh;
+    }
+
+    aside .ProdutosArticle button {
+        padding: 0.3em;
+        width: 23vw;
+        font-size: 1em;
+    }
+
+    header nav h1 {
+        font-size:1.1em;
+    }
+
+    header nav ul li a{
+        font-size: 0.7em;
+    }
+}
+
