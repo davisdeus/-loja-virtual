@@ -222,6 +222,10 @@ main h2 {
         margin: 2em 1.6em;
     }
 
+    aside p{
+        margin: 0 1.3em;
+    }
+
     aside button{
         max-width: 90%;
         margin-left: 1.1em;
